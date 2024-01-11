@@ -1,6 +1,6 @@
 import axios from 'axios';
 import cheerio from'cheerio';
-import CrawledData from '../database/models/crawledData';
+import CrawledData from '../database/models/crawledData.js';
 
 const crawl = async (url, keyword) => {
   try {
